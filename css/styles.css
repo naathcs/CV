@@ -1,0 +1,84 @@
+/****************************TAG SELECTORS****************************/
+
+body {
+  background-color: #F5EEDC;
+  font-family: "Helvetica", sans-serif;
+}
+
+img {
+  border: dashed #F5EEDC;
+  border-radius: 50%;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 3%;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+
+h1 {
+  color: #4F091D;
+  font-family: "Monaco", monospace;
+}
+h3 {
+  color: #DD4A48;
+}
+h4 {
+  color: #DD4A48;
+}
+
+p {
+  padding: 0.1px;
+  margin: auto;
+}
+
+td {
+  padding: 0 10px;
+}
+
+div {
+  text-align: center;
+  align-items: center;
+}
+
+/****************************CLASS SELECTORS****************************/
+
+.link:hover {
+  background-color: #5AA897;
+  transition: .3s;
+}
+
+.info {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  table-layout: auto;
+  width: 100%;
+}
+.color {
+  background-color: #D3E4CD;
+  margin: auto;
+  padding: 0.1px;
+}
+
+.certification .topics{
+  text-align: justify;
+}
+
+.skills .topics{
+  text-align: right;
+}
+
+.topics{
+display: flex;
+justify-content: center;
+table-layout: auto;
+}
+
+.star {
+  text-align: justify;
+}
+/****************************ID SELECTORS****************************/
