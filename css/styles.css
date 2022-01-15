@@ -49,6 +49,7 @@ div {
 .link:hover {
   background-color: #5AA897;
   transition: .3s;
+border-radius: 20%;
 }
 
 .info {
