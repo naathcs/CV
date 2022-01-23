@@ -7,7 +7,6 @@ body {
 
 img {
   border: dashed #F5EEDC;
-  border-radius: 50%;
 }
 
 hr {
@@ -45,11 +44,22 @@ div {
 }
 
 /****************************CLASS SELECTORS****************************/
-
+.link {
+  font-size: 15px;
+  border: 0;
+  padding: 0 20px;
+}
 .link:hover {
   background-color: #5AA897;
-  transition: .3s;
-border-radius: 20%;
+  transition: .5s;
+  border-radius: 50px;
+}
+
+.decoration {
+  text-decoration: none;
+}
+.decoration:hover {
+  text-decoration: none;
 }
 
 .info {
@@ -65,15 +75,15 @@ border-radius: 20%;
   padding: 0.1px;
 }
 
-.certification .topics{
+.certification .centered{
   text-align: justify;
 }
 
-.skills .topics{
+.skills .centered{
   text-align: right;
 }
 
-.topics{
+.centered{
 display: flex;
 justify-content: center;
 table-layout: auto;
@@ -82,4 +92,32 @@ table-layout: auto;
 .star {
   text-align: justify;
 }
+
+.submit {
+  border-radius: 10px;
+  border: 0;
+  background-color: #66806A;
+  padding: 0 20px;
+}
+.submit:hover {
+    background: rgb(168, 208, 174);
+    background: rgba(168, 208, 174, 1);
+}
+
+
+.home {
+  font-size: 15px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #FFC286;
+  padding: 0 20px;
+}
+.home:hover {
+  background: rgb(253, 219, 186);
+  background: rgba(253, 219, 186, 1);
+}
 /****************************ID SELECTORS****************************/
+
+#profile {
+  border-radius: 50%;
+}
